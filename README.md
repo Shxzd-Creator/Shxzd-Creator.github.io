@@ -2,10 +2,6 @@
 
 > **Live Website:** [https://shxzd-creator.github.io/](https://shxzd-creator.github.io/)
 
-A clean, modern, client-friendly personal portfolio built with zero external framework dependencies—showcasing **AI/ML & Data Science**, **Python development**, **data cleaning & analytics**, and **custom software projects**.
-
----
-
 ## Highlights & Capabilities
 
 - **Python Developer & AI/ML Models** — Automation scripts, predictive modeling, and model evaluation with Scikit-Learn.
