@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shehzad Hussain — AI/ML &amp; Data Science</title>
+  <meta name="description" content="Personal portfolio of Shehzad Hussain — AI, Data Analytics, Python, Java, and C++ Developer delivering practical automation, data insights, and software solutions." />
+  <meta property="og:title" content="Shehzad Hussain — AI, Data &amp; Software Portfolio" />
+  <meta property="og:description" content="Helping clients and teams build Python automation, AI tools, clean data insights, and reliable Java &amp; C++ software." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Top Navigation -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Shehzad Hussain Home">
+        <span class="brand-mark" aria-hidden="true">SH</span>
+        <span class="brand-text-wrap">
+          <span class="brand-text">Shehzad Hussain</span>
+          <span class="brand-sub mono-text">AI/ML &amp; Data Science</span>
+        </span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="icon-btn" id="theme-toggle" aria-label="Switch to light theme" title="Toggle color theme">
+          <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+          </svg>
+          <svg class="icon icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-sm hide-mobile">Let's Talk</a>
+
+        <button type="button" class="icon-btn nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-drawer" aria-label="Open navigation menu">
+          <svg class="icon icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <svg class="icon icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer" hidden>
+      <nav class="container mobile-nav" aria-label="Mobile navigation">
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#experience" class="mobile-nav-link">Experience</a>
+        <a href="#skills" class="mobile-nav-link">Skills &amp; Credentials</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+        <div class="mobile-drawer-actions">
+          <button type="button" class="btn btn-ghost" id="mobile-print-cv-btn">Print / Save CV</button>
+          <a href="#contact" class="btn btn-primary">Let's Talk</a>
+        </div>
+      </nav>
+    </div>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-kicker hero-anim" style="--anim-order: 0;">
+            Hello, I'm
+          </p>
+
+          <h1 class="hero-title hero-anim" style="--anim-order: 1;">
+            <span class="hero-name-gradient">Shehzad Hussain</span>
+          </h1>
+
+          <p class="hero-subtitle hero-anim" style="--anim-order: 2;">
+            <span class="typed-wrap">
+              <span id="typed-role" class="text-accent">AI/ML &amp; Data Science</span><span class="typed-cursor" aria-hidden="true">|</span>
+            </span>
+          </p>
+
+          <p class="hero-lead hero-anim" style="--anim-order: 3;">
+            I help clients and teams turn ideas into reliable software, Python automation scripts, clear data insights, and intelligent tools that solve real-world problems.
+          </p>
+
+          <div class="hero-cta-row hero-anim" style="--anim-order: 4;">
+            <a href="#contact" class="btn btn-primary">
+              <span>Start a Conversation</span>
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#projects" class="btn btn-secondary">
+              <span>View Projects</span>
+            </a>
+            <a href="https://www.linkedin.com/in/shahzadhussain-ai" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+              <span>LinkedIn</span>
+            </a>
+          </div>
+
+          <div class="hero-quick-meta hero-anim" style="--anim-order: 5;" aria-label="Quick contact details">
+            <button type="button" class="copy-chip" data-copy="shahzadhussain4595@gmail.com" data-label="Email">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+              <span>shahzadhussain4595@gmail.com</span>
+              <span class="copy-hint">Copy</span>
+            </button>
+            <button type="button" class="copy-chip" data-copy="+923338289185" data-label="Phone">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>+92 333 8289185</span>
+              <span class="copy-hint">Copy</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Client-Friendly Quick Snapshot Card -->
+        <aside class="snapshot-card hero-anim" style="--anim-order: 3;" aria-label="Quick overview">
+          <div class="snapshot-head">
+            <span class="snapshot-label mono-text">HOW I CAN HELP</span>
+            <h2>Simple, Dependable Solutions</h2>
+          </div>
+
+          <ul class="snapshot-services">
+            <li>
+              <span class="service-dot" aria-hidden="true"></span>
+              <div>
+                <strong>Python Developer &amp; AI/ML Models</strong>
+                <p>Python automation, Machine Learning modeling, and model evaluation with Scikit-Learn.</p>
+              </div>
+            </li>
+            <li>
+              <span class="service-dot" aria-hidden="true"></span>
+              <div>
+                <strong>Data Cleaning &amp; Preparation</strong>
+                <p>Turning messy, unstructured data into clean, reliable datasets with Pandas, NumPy &amp; Data Quality checks.</p>
+              </div>
+            </li>
+            <li>
+              <span class="service-dot" aria-hidden="true"></span>
+              <div>
+                <strong>Exploratory Analysis, SQL &amp; Visualization</strong>
+                <p>Data exploration, SQL databases, and visual insights in Tableau &amp; Excel for smarter decisions.</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="snapshot-footer">
+            <div>
+              <span class="snapshot-meta-label">Based in</span>
+              <strong>Islāmābād, Pakistan</strong>
+            </div>
+            <a href="https://github.com/Shxzd-Creator" target="_blank" rel="noopener noreferrer" class="mini-social">
+              <span>GitHub</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About Section with Large Portrait -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">About Me</span>
+          <h2 class="section-title">Turning Ideas Into Clear, Working Software</h2>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-photo-card card">
+            <div class="about-portrait-frame">
+              <span class="avatar-ring" aria-hidden="true"></span>
+              <span class="avatar-fallback" aria-hidden="true">SH</span>
+              <img src="profile.jpg" alt="Portrait of Shehzad Hussain" class="avatar-img" loading="eager" onerror="this.style.display='none'" />
+            </div>
+            <div class="about-photo-caption">
+              <h3>Shehzad Hussain</h3>
+              <p>Islāmābād, Pakistan · Remote &amp; On-site</p>
+              <div class="about-photo-links">
+                <a href="https://www.linkedin.com/in/shahzadhussain-ai" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                <a href="https://github.com/Shxzd-Creator" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="https://x.com/Shehxd_0" target="_blank" rel="noopener noreferrer">X ↗</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <div class="about-narrative card">
+              <p>
+                I'm a developer and problem solver focused on <strong>Artificial Intelligence, Machine Learning, Data Analysis, and Software Development</strong>. Whether you need a Python script to automate manual tasks, clean data organized for better business decisions, or a custom desktop management system, I focus on building solutions that are straightforward, dependable, and easy to use.
+              </p>
+              <p>
+                Alongside hands-on freelance programming experience, I am pursuing a <strong>BS in Artificial Intelligence at FUUAST, Islamabad</strong> and participating in the <strong>McKinsey.org Forward</strong> leadership program—strengthening both my technical depth and clear client communication.
+              </p>
+              <div class="about-highlights">
+                <div class="highlight-stat">
+                  <strong>Python · Java · C++ · SQL</strong>
+                  <span>Core Languages</span>
+                </div>
+                <div class="highlight-stat">
+                  <strong>6 Verified</strong>
+                  <span>Google, IBM &amp; HackerRank Certs</span>
+                </div>
+                <div class="highlight-stat">
+                  <strong>Clear &amp; Responsive</strong>
+                  <span>Client Communication</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head section-head-split">
+          <div>
+            <span class="section-eyebrow">Selected Work</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">
+              Practical software and AI systems built to solve everyday management and prediction needs.
+            </p>
+          </div>
+          <div class="filter-bar" role="group" aria-label="Filter projects by technology">
+            <button type="button" class="filter-btn active" data-filter="all">All (4)</button>
+            <button type="button" class="filter-btn" data-filter="ai-python">AI &amp; Python</button>
+            <button type="button" class="filter-btn" data-filter="cpp">C++</button>
+            <button type="button" class="filter-btn" data-filter="java">Java</button>
+          </div>
+        </div>
+
+        <div class="work-grid projects-grid" id="work-grid">
+          <article class="work-card card" data-category="ai-python">
+            <div class="work-card-top">
+              <span class="work-index mono-text">01</span>
+              <span class="badge badge-teal">AI &amp; Python</span>
+            </div>
+            <h3>AI Disease Prediction System</h3>
+            <p>
+              A Python-based prediction tool that takes user symptoms and identifies potential health conditions using foundational Machine Learning workflows.
+            </p>
+            <div class="work-footer">
+              <ul class="tag-list">
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>AI</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="work-card card" data-category="java">
+            <div class="work-card-top">
+              <span class="work-index mono-text">02</span>
+              <span class="badge badge-slate">Desktop App</span>
+            </div>
+            <h3>Hospital Management System</h3>
+            <p>
+              A Java management application designed to organize patient records, doctor schedules, and clinic appointments in one structured workflow.
+            </p>
+            <div class="work-footer">
+              <ul class="tag-list">
+                <li>Java</li>
+                <li>Record Management</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="work-card card" data-category="cpp">
+            <div class="work-card-top">
+              <span class="work-index mono-text">03</span>
+              <span class="badge badge-slate">Operations</span>
+            </div>
+            <h3>Restaurant Management System</h3>
+            <p>
+              A fast C++ system built to manage food orders, customer details, and billing cleanly and accurately.
+            </p>
+            <div class="work-footer">
+              <ul class="tag-list">
+                <li>C++</li>
+                <li>Billing &amp; Orders</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="work-card card" data-category="cpp">
+            <div class="work-card-top">
+              <span class="work-index mono-text">04</span>
+              <span class="badge badge-slate">Education Tool</span>
+            </div>
+            <h3>Student Attendance Management System</h3>
+            <p>
+              An Object-Oriented C++ system enabling teachers to record, track, and manage student attendance effortlessly.
+            </p>
+            <div class="work-footer">
+              <ul class="tag-list">
+                <li>C++</li>
+                <li>OOP</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="work-cta-banner card">
+          <div>
+            <h3>Want to See More Code or Discuss a Custom Build?</h3>
+            <p>Check out my GitHub profile or send a quick message about what you need built.</p>
+          </div>
+          <div class="banner-actions">
+            <a href="https://github.com/Shxzd-Creator" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <span>GitHub ↗</span>
+            </a>
+            <a href="#contact" class="btn btn-primary">
+              <span>Request a Project</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Background Section -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">Background</span>
+          <h2 class="section-title">Experience &amp; Education</h2>
+        </div>
+
+        <div class="background-grid">
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-card card">
+                <div class="timeline-top">
+                  <div>
+                    <span class="badge badge-amber">Current · McKinsey &amp; Company</span>
+                    <h3 class="timeline-role">Participant, McKinsey.org Forward</h3>
+                  </div>
+                  <span class="timeline-meta mono-text">Oct 2026 – Present</span>
+                </div>
+                <p class="timeline-desc">
+                  10-week program focused on structured problem solving, clear stakeholder communication, and self-leadership through real case scenarios.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-card card">
+                <div class="timeline-top">
+                  <div>
+                    <span class="badge badge-teal">Freelance · Kuwait (Remote)</span>
+                    <h3 class="timeline-role">Freelance Programmer</h3>
+                  </div>
+                  <span class="timeline-meta mono-text">May 2024 – Feb 2025</span>
+                </div>
+                <ul class="bullet-list">
+                  <li>Built Python automation scripts to streamline repetitive tasks.</li>
+                  <li>Developed Java desktop applications and C++ programming solutions.</li>
+                  <li>Delivered academic AI, Machine Learning, and collaborative software projects.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+          <div class="edu-stack">
+            <article class="edu-card card">
+              <div class="edu-top">
+                <span class="badge badge-amber">In Progress</span>
+                <span class="mono-text edu-dates">Oct 2024 – Jul 2028</span>
+              </div>
+              <h3>BS Artificial Intelligence</h3>
+              <p class="edu-institution">Federal Urdu University of Arts, Science &amp; Technology (FUUAST), Islamabad</p>
+              <p class="edu-detail">
+                Coursework in Machine Learning, Data Structures, Databases, and Software Development.
+              </p>
+            </article>
+
+            <article class="edu-card card">
+              <div class="edu-top">
+                <div class="edu-badges">
+                  <span class="badge badge-slate">Completed</span>
+                  <span class="badge badge-teal">Grade: B+</span>
+                </div>
+                <span class="mono-text edu-dates">Mar 2021 – Dec 2023</span>
+              </div>
+              <h3>ICS, Computer Science</h3>
+              <p class="edu-institution">Govt Boys Degree College, Skardu</p>
+              <p class="edu-detail">
+                Strong foundation in computer science, programming logic, and mathematics.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Certifications Section (Clean by default, expandable full list) -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">Capabilities</span>
+          <h2 class="section-title">Core Skills &amp; Verified Credentials</h2>
+        </div>
+
+        <div class="skills-layout">
+          <div class="skills-panel card">
+            <div class="skills-panel-head">
+              <h3>Tools &amp; Expertise</h3>
+              <button type="button" class="btn btn-ghost btn-sm" id="toggle-all-skills-btn" aria-expanded="false">
+                View all 39 skills
+              </button>
+            </div>
+
+            <div class="skill-group">
+              <h4 class="skill-group-title">
+                <span class="dot-marker dot-teal" aria-hidden="true"></span>
+                Core AI, ML &amp; Data Science Stack
+              </h4>
+              <div class="skill-chips">
+                <span class="skill-chip skill-chip-featured">Python Developer</span>
+                <span class="skill-chip skill-chip-featured">AI &amp; Machine Learning</span>
+                <span class="skill-chip skill-chip-featured">Data Science</span>
+                <span class="skill-chip skill-chip-featured">Data Cleaning &amp; Preprocessing</span>
+                <span class="skill-chip skill-chip-featured">SQL &amp; Databases</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h4 class="skill-group-title">
+                <span class="dot-marker dot-blue" aria-hidden="true"></span>
+                Essential Data &amp; ML Workflow Tools
+              </h4>
+              <div class="skill-chips">
+                <span class="skill-chip">NumPy</span>
+                <span class="skill-chip">Pandas</span>
+                <span class="skill-chip">Scikit-Learn</span>
+                <span class="skill-chip">Exploratory Data Analysis</span>
+                <span class="skill-chip">Data Visualization</span>
+                <span class="skill-chip">Tableau</span>
+                <span class="skill-chip">Data Quality</span>
+                <span class="skill-chip">Unstructured Data</span>
+                <span class="skill-chip">Data Security &amp; Ethics</span>
+                <span class="skill-chip">Microsoft Excel</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h4 class="skill-group-title">
+                <span class="dot-marker dot-amber" aria-hidden="true"></span>
+                Engineering &amp; Client Delivery
+              </h4>
+              <div class="skill-chips">
+                <span class="skill-chip">Java &amp; C++</span>
+                <span class="skill-chip">Object-Oriented Programming (OOP)</span>
+                <span class="skill-chip">Data Structures &amp; Algorithms</span>
+                <span class="skill-chip">Git &amp; GitHub</span>
+                <span class="skill-chip">Problem Solving</span>
+                <span class="skill-chip">Communication</span>
+                <span class="skill-chip">Teamwork</span>
+              </div>
+            </div>
+
+            <!-- Expandable Full LinkedIn Skills Drawer -->
+            <div class="all-skills-drawer" id="all-skills-drawer" hidden>
+              <h4 class="skill-group-title">
+                <span class="dot-marker dot-slate" aria-hidden="true"></span>
+                Additional LinkedIn Skills &amp; Workflows
+              </h4>
+              <div class="skill-chips">
+                <span class="skill-chip">Data Analysis</span>
+                <span class="skill-chip">Model Building &amp; Evaluation</span>
+                <span class="skill-chip">Data Manipulation</span>
+                <span class="skill-chip">Data Collection</span>
+                <span class="skill-chip">File Management</span>
+                <span class="skill-chip">Analytical Skills</span>
+                <span class="skill-chip">Analytic Problem Solving</span>
+                <span class="skill-chip">Data-driven Decision Making</span>
+                <span class="skill-chip">Quantitative Research</span>
+                <span class="skill-chip">Spreadsheet Software</span>
+                <span class="skill-chip">Stakeholder Management</span>
+                <span class="skill-chip">Strategic Communications</span>
+                <span class="skill-chip">Shareholder Communications</span>
+                <span class="skill-chip">Bank Management</span>
+              </div>
+              <div class="toolkit-bar">
+                <span class="mono-text toolkit-label">AI &amp; Dev Apps:</span>
+                <span class="toolkit-items">GitHub Copilot · Replit Agent · Wispr Flow · Adobe Express</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="certs-panel card">
+            <div class="certs-header">
+              <h3>Certifications</h3>
+              <span class="badge badge-teal">6 Verified</span>
+            </div>
+
+            <ol class="cert-list">
+              <li class="cert-item">
+                <span class="cert-num mono-text">01</span>
+                <div class="cert-info">
+                  <div class="cert-meta-row">
+                    <span class="cert-issuer">HackerRank</span>
+                    <span class="cert-date mono-text">Nov 2026</span>
+                  </div>
+                  <h4>HackerRank Python (Basic) Certification</h4>
+                  <div class="cert-footer-row">
+                    <span class="cert-id mono-text">ID: 65BAC3582F6D</span>
+                    <a href="https://www.hackerrank.com/certificates/iframe/65bac3582f6d" target="_blank" rel="noopener noreferrer" class="cert-link">Verify ↗</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="cert-item">
+                <span class="cert-num mono-text">02</span>
+                <div class="cert-info">
+                  <div class="cert-meta-row">
+                    <span class="cert-issuer">Google</span>
+                    <span class="cert-date mono-text">Nov 2026</span>
+                  </div>
+                  <h4>Prepare Data for Exploration</h4>
+                  <div class="cert-footer-row">
+                    <span class="cert-id mono-text">ID: CZE1XS0G601W</span>
+                    <a href="https://www.coursera.org/account/accomplishments/records/CZE1XS0G601W" target="_blank" rel="noopener noreferrer" class="cert-link">Verify ↗</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="cert-item">
+                <span class="cert-num mono-text">03</span>
+                <div class="cert-info">
+                  <div class="cert-meta-row">
+                    <span class="cert-issuer">Google</span>
+                    <span class="cert-date mono-text">Sep 2026</span>
+                  </div>
+                  <h4>Ask Questions to Make Data-Driven Decisions</h4>
+                  <div class="cert-footer-row">
+                    <span class="cert-id mono-text">ID: MUI4GX19FY1J</span>
+                    <a href="https://www.coursera.org/account/accomplishments/records/MUI4GX19FY1J" target="_blank" rel="noopener noreferrer" class="cert-link">Verify ↗</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="cert-item">
+                <span class="cert-num mono-text">04</span>
+                <div class="cert-info">
+                  <div class="cert-meta-row">
+                    <span class="cert-issuer">Google</span>
+                    <span class="cert-date mono-text">Sep 2026</span>
+                  </div>
+                  <h4>Foundations: Data, Data, Everywhere</h4>
+                  <div class="cert-footer-row">
+                    <span class="cert-id mono-text">ID: YM2OTFLBZNKB</span>
+                    <a href="https://www.coursera.org/account/accomplishments/records/YM2OTFLBZNKB" target="_blank" rel="noopener noreferrer" class="cert-link">Verify ↗</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="cert-item">
+                <span class="cert-num mono-text">05</span>
+                <div class="cert-info">
+                  <div class="cert-meta-row">
+                    <span class="cert-issuer">IBM</span>
+                    <span class="cert-date mono-text">Aug 2026</span>
+                  </div>
+                  <h4>Data Analysis with Python</h4>
+                  <div class="cert-footer-row">
+                    <span class="cert-id mono-text">ID: 09A82SXEFOH5</span>
+                    <a href="https://www.coursera.org/account/accomplishments/records/09A82SXEFOH5" target="_blank" rel="noopener noreferrer" class="cert-link">Verify ↗</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="cert-item">
+                <span class="cert-num mono-text">06</span>
+                <div class="cert-info">
+                  <div class="cert-meta-row">
+                    <span class="cert-issuer">Coursera · Credly</span>
+                    <span class="cert-date mono-text">Aug 2026</span>
+                  </div>
+                  <h4>Data Analysis with Python (Digital Badge)</h4>
+                  <div class="cert-footer-row">
+                    <span class="cert-id mono-text">Official Digital Badge</span>
+                    <a href="https://www.credly.com/badges/d7863fa8-38d1-4736-88cf-ec2d03e846ff/linked_in_profile" target="_blank" rel="noopener noreferrer" class="cert-link">Verify ↗</a>
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">Get In Touch</span>
+          <h2 class="section-title">Let's Work Together</h2>
+          <p class="section-subtitle">
+            Have a project, automation idea, or role in mind? Reach out directly by email, phone, or the quick message form below.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-cards">
+            <div class="contact-item card">
+              <div class="contact-item-main">
+                <span class="contact-label">Email</span>
+                <a href="mailto:shahzadhussain4595@gmail.com" class="contact-value">shahzadhussain4595@gmail.com</a>
+              </div>
+              <button type="button" class="btn btn-ghost btn-sm copy-btn" data-copy="shahzadhussain4595@gmail.com" data-label="Email address">Copy</button>
+            </div>
+
+            <div class="contact-item card">
+              <div class="contact-item-main">
+                <span class="contact-label">Mobile</span>
+                <a href="tel:+923338289185" class="contact-value">+92 333 8289185</a>
+              </div>
+              <button type="button" class="btn btn-ghost btn-sm copy-btn" data-copy="+923338289185" data-label="Phone number">Copy</button>
+            </div>
+
+            <div class="contact-item card">
+              <div class="contact-item-main">
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Islāmābād, Pakistan</span>
+              </div>
+              <span class="badge badge-teal">Remote &amp; On-site</span>
+            </div>
+
+            <div class="social-row">
+              <a href="https://www.linkedin.com/in/shahzadhussain-ai" target="_blank" rel="noopener noreferrer" class="social-pill card">
+                <span>LinkedIn</span>
+                <span class="mono-text">/in/shahzadhussain-ai ↗</span>
+              </a>
+              <a href="https://github.com/Shxzd-Creator" target="_blank" rel="noopener noreferrer" class="social-pill card">
+                <span>GitHub</span>
+                <span class="mono-text">/Shxzd-Creator ↗</span>
+              </a>
+              <a href="https://x.com/Shehxd_0" target="_blank" rel="noopener noreferrer" class="social-pill card">
+                <span>X (Twitter)</span>
+                <span class="mono-text">@Shehxd_0 ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Interactive Email Composer -->
+          <form class="contact-form card" id="contact-form">
+            <h3>Send a Quick Message</h3>
+            <p class="form-note">
+              Fill this out to open your email app ready to send, or copy the formatted message with one click.
+            </p>
+
+            <div class="form-field">
+              <label for="sender-name">Your Name</label>
+              <input type="text" id="sender-name" name="name" placeholder="e.g., Sarah Ahmed" required />
+            </div>
+
+            <div class="form-field">
+              <label for="inquiry-subject">Project or Topic</label>
+              <input type="text" id="inquiry-subject" name="subject" placeholder="e.g., Python Automation / Custom Software" required />
+            </div>
+
+            <div class="form-field">
+              <label for="inquiry-message">How Can I Help?</label>
+              <textarea id="inquiry-message" name="message" rows="4" placeholder="Tell me briefly about your project, timeline, or goals..." required></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Send via Email</button>
+              <button type="button" class="btn btn-secondary" id="copy-draft-btn">Copy Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="current-year">2026</span> Shehzad Hussain</p>
+      <div class="footer-links">
+        <button type="button" class="footer-print-link" id="print-cv-btn">Save / Print CV</button>
+        <a href="https://www.linkedin.com/in/shahzadhussain-ai" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/Shxzd-Creator" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://x.com/Shehxd_0" target="_blank" rel="noopener noreferrer">X</a>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
