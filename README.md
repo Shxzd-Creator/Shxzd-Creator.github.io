@@ -1,20 +1,71 @@
-# Shehzad Hussain — Personal Portfolio Website
+# Shehzad Hussain — AI/ML, Data Science & Software Portfolio
 
-Responsive, zero-dependency static personal portfolio built for **Shehzad Hussain** (BS Artificial Intelligence student at FUUAST, Islamabad & McKinsey.org Forward participant).
+> **Live Website:** [https://shxzd-creator.github.io/](https://shxzd-creator.github.io/)
 
-## Files
+A clean, modern, client-friendly personal portfolio built with zero external framework dependencies—showcasing **AI/ML & Data Science**, **Python development**, **data cleaning & analytics**, and **custom software projects**.
 
-- `index.html` — Semantic HTML5 portfolio sections (Hero & Dossier, About, Experience, Filterable Projects, 39 Skills & 6 Verified Certifications, Education, Contact & Inquiry Composer)
-- `styles.css` — Dark/Light theme tokens, responsive grid layout, and `@media print` CV stylesheet
-- `script.js` — Theme switcher, mobile navigation drawer, project category filtering, click-to-copy contact utilities, `mailto:` inquiry composer, scroll-spy, and subtle neural node canvas
+---
+
+## Highlights & Capabilities
+
+- **Python Developer & AI/ML Models** — Automation scripts, predictive modeling, and model evaluation with Scikit-Learn.
+- **Data Cleaning & Preparation** — Turning messy, unstructured data into clean, reliable datasets using Pandas, NumPy, and Data Quality best practices.
+- **Exploratory Analysis, SQL & Visualization** — SQL database querying, exploratory data analysis (EDA), and visual reporting in Tableau and Excel.
+- **Custom Software & OOP** — Desktop and management applications built with Java and C++.
+
+---
+
+## Featured Projects
+
+| Project | Stack | Summary |
+| :--- | :--- | :--- |
+| **AI Disease Prediction System** | Python, Machine Learning, AI | Predicts possible diseases from user symptoms using foundational ML workflows. |
+| **Hospital Management System** | Java | Desktop workflow for managing patient records, doctor schedules, and appointments. |
+| **Restaurant Management System** | C++ | Fast order, billing, and customer record management system. |
+| **Student Attendance Management System** | C++, OOP | Object-oriented attendance tracking system for teachers and classrooms. |
+
+---
+
+## Verified Credentials
+
+- **HackerRank Python (Basic) Certification** — HackerRank (`Nov 2026`)
+- **Prepare Data for Exploration** — Google (`Nov 2026`)
+- **Ask Questions to Make Data-Driven Decisions** — Google (`Sep 2026`)
+- **Foundations: Data, Data, Everywhere** — Google (`Sep 2026`)
+- **Data Analysis with Python** — IBM (`Aug 2026`)
+- **Data Analysis with Python (Digital Badge)** — Coursera / Credly (`Aug 2026`)
+
+---
+
+## Website Features
+
+- **Modern Dark & Light Modes** with midnight indigo-slate and emerald-cyan accents.
+- **Animated Sticky Header & Scroll Progress Bar** with active section tracking.
+- **Typed Role Subtitle & Scroll-Triggered Reveals** respecting `prefers-reduced-motion`.
+- **Interactive Project Filters** (`All`, `AI & Python`, `C++`, `Java`) and **Expandable Skills Drawer**.
+- **One-Click Contact Copy & Email Composer**, plus a **Print / Save CV** (`@media print`) layout.
+
+---
+
+## Project Structure
+
+- `index.html` — Portfolio structure and content sections
+- `styles.css` — Theme tokens, responsive layout, animations, and print stylesheet
+- `script.js` — Theme switcher, typed role animation, project filters, skills toggle, scroll reveals, and contact utilities
+- `profile.jpg` — Profile portrait
 - `favicon.svg` — Custom `SH` monogram icon
-- `server.ps1` & `start.bat` — Optional local PowerShell HTTP preview server on `http://localhost:8090/`
+- `server.ps1` & `start.bat` — Optional local PowerShell preview server (`http://localhost:8090/`)
 
 ## Preview Locally
 
-1. **Direct file open**: Double-click `index.html` to open it in any browser.
-2. **Local server preview**: Run `start.bat` (or `powershell -ExecutionPolicy Bypass -File server.ps1 -Port 8090`) and visit `http://localhost:8090/`.
+1. **Open directly**: Double-click `index.html` in your browser.
+2. **Local preview server (Windows)**: Run `start.bat` or `powershell -ExecutionPolicy Bypass -File server.ps1 -Port 8090` and visit `http://localhost:8090/`.
 
-## Deployment
+---
 
-Since this site uses pure static assets (`index.html`, `styles.css`, `script.js`, `favicon.svg`), you can deploy the folder directly to **GitHub Pages**, **Netlify**, **Vercel**, or **Cloudflare Pages** with zero build step.
+## Connect
+
+- **LinkedIn:** [linkedin.com/in/shahzadhussain-ai](https://www.linkedin.com/in/shahzadhussain-ai)
+- **GitHub:** [github.com/Shxzd-Creator](https://github.com/Shxzd-Creator)
+- **X (Twitter):** [x.com/Shehxd_0](https://x.com/Shehxd_0)
+- **Email:** `shahzadhussain4595@gmail.com`
